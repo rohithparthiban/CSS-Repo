@@ -2,4 +2,51 @@ body{
     background-image: linear-gradient(to top right, blue,indigo);
     background-repeat: no-repeat;
     height: 100vh;
+    
+}
+.child1{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width: 600px;
+    height: 150px;
+    background-image: linear-gradient(to right,rgb(133, 89, 243),rgb(163, 93, 232));
+    color: white;
+    text-align: end;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+}
+#button1{
+    background-image: linear-gradient(to right,rgb(133, 89, 243),rgb(163, 93, 232));
+    border: 1px solid white;
+    padding: 12px;
+    width: 100px;
+    color: white;
+    margin-right: 70px;  
+}
+.child2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    left: 28%;
+    top: 10%;
+}
+.child2 input{
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+}
+.child2 button{
+    padding: 10px;
+    margin: 15px;
+    width: 100px;
+    background-color: fuchsia;
+    border-style: none;
+    
+
 }
