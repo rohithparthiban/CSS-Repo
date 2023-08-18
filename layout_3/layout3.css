@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: linear-gradient(to right, red, purple, blue);
+    height: 100vh;
+}
+
+.child1 {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: white;
+}
+
+h2 {
+    background: linear-gradient(to left, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.child1 img {
+    clip-path: circle();
+    width: 250px;
+    margin-top: 13%;
+}
+
+.child2 {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+.child2 h1{
+    background: linear-gradient(to left, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 20px;
+}
+
+table{
+    color: white;
+    margin: auto;
+    text-align: left;
+}
+table td{
+    padding: 20px;
+}
